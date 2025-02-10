@@ -1,0 +1,312 @@
+@import url('reset.css');
+/* General Demo Style */
+
+body {
+    background: url('/images/bg.jpg');
+    background-attachment: fixed;
+    min-height: 1000px;
+    font-family: 'Microsoft YaHei';
+    color: #000;
+    font-size: 13px;
+}
+
+a {
+    color: #555;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #000;
+}
+
+.clr {
+    clear: both;
+}
+
+.wrapper1 {
+    position: relative;
+    margin-top: 0px;
+    width: 100%;
+}
+
+.wrapper1 p {
+    clear: both;
+    font-size: 24px;
+    line-height: 40px;
+    text-align: center;
+}
+
+.reference {
+    padding-top: 40px;
+}
+
+h1 {
+    font-size: 34px;
+    position: relative;
+    color: #000;
+    font-weight: 400;
+    text-shadow: 0px 0px 1px rgba(0, 0, 0, 0.3);
+    padding: 20px;
+    z-index: 1000;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+h1 span {
+    font-family: 'Playfair Display', serif;
+    font-style: italic;
+    text-transform: none;
+    font-size: 20px;
+}
+
+h1,
+em,
+#information {
+    display: block;
+    font-size: 25px;
+    font-weight: normal;
+    font-family: "Microsoft YaHei";
+    margin: 2em auto;
+}
+
+a {
+    color: #414142;
+    font-style: normal;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+#container {
+    display: block;
+    margin: 0 auto;
+    width: 1024px;
+}
+
+#information {
+    color: red;
+    font-size: 14px;
+}
+
+.wrapper {
+    display: inline-block;
+    width: 250px;
+    height: 200px;
+    vertical-align: top;
+    margin: 1em 1.5em 2em 0em;
+    cursor: pointer;
+    position: relative;
+    font-family: Tahoma, Arial;
+}
+
+.item {
+    height: 250px;
+}
+
+.item:hover img {
+    box-shadow: none;
+    border-radius: 3px;
+}
+
+.item:hover .information {
+    box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.3);
+    border-radius: 3px;
+}
+
+.item img {
+    display: block;
+    position: absolute;
+    top: 0;
+    border-radius: 3px;
+    box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.3);
+}
+
+.item .information {
+    display: block;
+    position: absolute;
+    top: 0;
+    height: 250px;
+    width: 252px;
+    text-align: left;
+    margin-left: -1px;
+    padding: 10px;
+    font-size: 20px;
+    box-shadow: none;
+    text-align: center;
+    font-family: 'Microsoft YaHei';
+    color: #EEE;
+    z-index: 1;
+    background: #222;
+    opacity: 0.9;
+}
+
+.information strong {
+    display: block;
+    margin: .2em 0 .5em 0;
+    font-size: 45px;
+    text-shadow: 1px 1px 3px rgba(222, 222, 0.3);
+    text-align: center;
+    font-family: 'Microsoft YaHei';
+}
+
+.hover {
+    display: inline-block !important;
+}
+
+.fb_nav {
+    text-align: center;
+    background: #172f36;
+    width: 100%;
+    height: 64px;
+    float: left;
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.fb_nav a {
+    z-index: 99999;
+    margin-top: 15px;
+    margin-left: 60px;
+    float: left;
+    background: url('/images/nav.png');
+    position: relative;
+    display: inline;
+    height: 38px;
+    background-position: 530px 0px;
+    min-width: 80px;
+}
+
+.fb_nav img {
+    z-index: 99999;
+    margin: 10px 15px 0px 60px;
+    width: 50px;
+    float: left;
+    display: block;
+}
+
+.fb_nav_logo {
+    display: inline;
+    float: left;
+}
+
+.fb_main {
+    height: 500px;
+    background-color: #222;
+    text-align: center;
+    position: relative;
+    display: inline;
+}
+
+.fb_main_content {
+    margin: 0 auto;
+    background: rgba(22, 22, 22, 0.8);
+    font-family: 'Microsoft YaHei';
+    font-size: 24px;
+    padding-top: 100px;
+}
+
+.fb_job {
+    background: rgba(22, 22, 22, 0.8);
+    height: 680px;
+    color: #FFF;
+    padding-top: 1px;
+    padding-top: 100px;
+}
+
+.fb_job p {
+    text-shadow: 1px 1px 15px rgba(255, 255, 255, 0.6);
+    font-size: 40px;
+    text-align: center;
+    margin-top: 80px;
+    font-family: 'Microsoft YaHei';
+    font-weight: bold;
+}
+
+.fb_job .fb_job_btn {
+    display: inline-block;
+    background: url('/images/join_btn.png');
+    line-height: 35px;
+    padding: 10px;
+    color: #F1F1F1;
+    width: 156px;
+    height: 35px;
+    font-size: 21px;
+    position: relative;
+    text-align: center;
+    font-weight: bold;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.fb_footer {
+    /* text-align: center; */
+    background-color: #000000EE;
+    color: #F1F1F1;
+    padding: 20px;
+    font-size: 1em;
+    line-height: 180%;
+}
+
+.fb_footer a {
+    color: #F1F1F1;
+    font-style: normal;
+    text-decoration: none;
+    font-size: 1em;
+}
+
+.fb_footer a:hover {
+    color: #F12121;
+    text-decoration: underline;
+}
+
+.up {
+    width: 54px;
+    height: 54px;
+    background: url(/images/topback.png) no-repeat 0 0;
+    filter: alpha(Opacity=60);
+    -moz-opacity: 0.6;
+    opacity: 0.6;
+}
+
+.up:hover {
+    filter: alpha(Opacity=100);
+    -moz-opacity: 1;
+    opacity: 1;
+}
+
+.container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+@media (min-width: 576px) {
+    .container {
+        max-width: 540px;
+    }
+}
+
+@media (min-width: 768px) {
+    .container {
+        max-width: 720px;
+    }
+}
+
+@media (min-width: 992px) {
+    .container {
+        max-width: 960px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .container {
+        max-width: 1140px;
+    }
+}

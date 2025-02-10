@@ -1,0 +1,74 @@
+body {
+        color: #EEE;
+        background: url('/images/bg1.jpg');
+        background-attachment: fixed;
+        font-family: 'Microsoft YaHei';
+        text-align: center;
+    }
+    
+    h1 {
+        color: #222;
+        font-size: 35px;
+        margin: 0px;
+    }
+    
+    .fb_joinus_con {
+        margin: 10px auto;
+        width: 800px;
+        border: 1px solid rgba(3, 58, 164, 0.7);
+        background: rgba(3, 5, 6, 0.57);
+        color: #4AC3D1;
+        padding: 25px;
+        font-size: 15px;
+        font-weight: normal;
+        line-height: 30px;
+        box-shadow: 0px 0px 10px rgb(3, 58, 164);
+    }
+    
+    .fb_join_maincon {
+        border: 1px solid #63c4e2;
+        display: inline-block;
+        padding: 20px;
+        margin: 140px auto;
+        width: 980px;
+        background: rgba(38, 24, 77, 0.6);
+        border-radius: 3px;
+        margin-bottom: 30px;
+    }
+    
+    .fb_join_pic {
+        margin: 0 auto;
+        display: inline-block;
+    }
+    
+    .fb_join_pic img {
+        padding: 3px;
+    }
+    
+    .fb_join_h2 {
+        font-size: 28px;
+        text-align: left;
+        margin-left: 70px;
+        margin-top: 30px;
+    }
+    
+    .fb_join_h3 {
+        font-size: 20px;
+        color: #DDD;
+    }
+    
+    .fb_joinus_con strong {
+        color: #DDD
+    }
+    
+    .fb_bottom_copy {
+        background: rgba(33, 33, 33, 0.5);
+        height: 40px;
+        text-align: center;
+        padding-top: 30px;
+    }
+    
+    .fb_img {
+        background: rgba(3, 5, 6, 0.57);
+        box-shadow: 0px 0px 10px rgb(3, 58, 164);
+    }

@@ -1,0 +1,131 @@
+<html>
+<head>
+    <title>涅磐网络--首页</title>
+    <meta charset="utf-8">
+    <link rel="shortcut icon" href="/images/logo.ico" />
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <link rel="stylesheet" type="text/css" href="css/headroom.css">
+    <link rel="stylesheet" type="text/css" href="css/demo.css" />
+</head>
+<body>
+    <div class="wrapper1">
+        <div id="ei-slider" class="ei-slider">
+            <ul class="ei-slider-large">
+                <li>
+                    <img src="/images/wallpaper-1738907.jpg" alt="image01" />
+                    <div class="ei-title">
+                        <h2 class="title">涅磐网络</h2>
+                        <h3>构建虚拟世界，创造无尽可能</h3>
+                    </div>
+                </li>
+                <li>
+                    <img src="/images/wallpaper-1900616.jpg" alt="image02" />
+                    <div class="ei-title" style="top:20%;margin-right:26%;">
+                        <h2>让每一位玩家都能成为主角</h2>
+                        <h3>在奇幻的世界里，成就自己的传奇</h3>
+                    </div>
+                </li>
+                <li>
+                    <img src="/images/wallpaper-2624888.jpg" alt="image03" />
+                    <div class="ei-title">
+                        <h2>探索未知，战斗荣耀</h2>
+                        <h3>挑战极限，体验极致游戏快感</h3>
+                    </div>
+                </li>
+            </ul>
+            <ul class="ei-slider-thumbs">
+                <li class="ei-slider-element">Current</li>
+                <li>
+                    <a href="#">Slide 1</a>
+                    <img src="/images/wallpaper-1738907.jpg" alt="thumb01" />
+                </li>
+                <li>
+                    <a href="#">Slide 2</a>
+                    <img src="/images/wallpaper-1900616.jpg" alt="thumb02" />
+                </li>
+                <li>
+                    <a href="#">Slide 3</a>
+                    <img src="/images/wallpaper-2624888.jpg" alt="thumb03" />
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="fb_main">
+        <ul class="fb_main_content">
+            <div class="wrapper">
+                <div class="item">
+                    <img src="/images/wallpaper-2307465_cube.jpg" width='270' height="270" />
+                    <span class="information" style="display:none;">
+                        <strong>创新</strong>
+                        每一款游戏都蕴含着创新的基因，打破传统，创造未来。
+                    </span>
+                </div>
+            </div>
+            <div class="wrapper">
+                <div class="item">
+                    <img src="/images/wallpaper-2620552_cube.jpg" width='270' height="270" />
+                    <span class="information" style="display:none;">
+                        <strong>专注</strong>
+                        我们专注于打造极致的游戏体验，让玩家享受每一秒的游戏时光。
+                    </span>
+                </div>
+            </div>
+            <div class="wrapper">
+                <div class="item">
+                    <img src="/images/wallpaper-2979955_cube.jpg" width='270' height="270" />
+                    <span class="information" style="display:none;">
+                        <strong>团队</strong>
+                        团队是我们成功的核心，我们一同创造游戏的奇迹。
+                    </span>
+                </div>
+            </div>
+        </ul>
+    </div>
+
+    <div class="fb_job">
+        <p>你是否热爱游戏，渴望用自己的创意打造一款打破常规的作品？</p>
+        <p>你是否想在充满活力的团队中，挑战自我、实现梦想？</p>
+        <p>加入我们，成为涅磐网络的一员，一起迎接全新的游戏时代！</p>
+        <div style="margin:100px auto;text-align:center;">
+            <a class="fb_job_btn" target="_blank" href="mailto:hr@nirvana-game.com">加入我们</a>
+        </div>
+    </div>
+
+    <div class="fb_footer">
+        <div class="container">
+            <div>
+                <div>▍<b><span style="color:coral">建议18岁（含）以上的成年人游戏</span></b>
+                <div>▍抵制不良游戏，拒绝盗版游戏。注意自我保护，谨防受骗上当。适度游戏益脑，沉迷游戏伤身。合理安排时间，享受健康生活。</div>
+            </div>
+            <br />
+            <div>
+                <div>© 2025 Shanghai Nirvana Network Technology Co., Ltd. 上海涅磐网络科技有限公司 版权所有</div>
+            </div>
+        </div>
+    </div>
+</body>
+
+<script type="text/javascript" src="https://cdn.bootcss.com/jquery/1.12.4/jquery.min.js"></script>
+<script type="text/javascript" src="js/jquery.eislideshow.js"></script>
+<script type="text/javascript" src="https://cdn.bootcss.com/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+<script type="text/javascript">
+    $(function () {
+        $('#ei-slider').eislideshow({
+            easing: 'easeOutExpo',
+            titleeasing: 'easeOutExpo',
+            titlespeed: 2000
+        });
+    });
+</script>
+
+<script type="text/javascript">
+    $(".item").mouseenter(function () {
+        $(this).find(".information").fadeIn();
+    });
+    $(".item").mouseleave(function () {
+        $(this).find(".information").fadeOut();
+    });
+</script>
+
+</html>
